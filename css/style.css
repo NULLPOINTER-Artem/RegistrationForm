@@ -14,7 +14,7 @@
     font-size: 14px;
 }
 
-.error {
+#signUpForm input.error {
     outline: none;
     border: 1px solid red;
 }
@@ -28,11 +28,16 @@
     margin-bottom: 15px;
 }
 
+.msgError {
+    display: none;
+    color: red;
+    font-size: 14px;
+}
+
 #signUpForm input {
-    /* border-radius: 5px; */
-    /* border: 1px solid #ececec; */
-    /* padding: 5px; */
-    /* outline: none; */
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    padding: 5px;
 }
 
 #signUpForm input[type="submit"] {
